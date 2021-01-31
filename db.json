@@ -1,7 +1,7 @@
 {
-    "bg": "https://www.slon.pics/wp-content/uploads/2016/12/Flag-of-Canada-in-the-corner-on-white-background.-Isolated-contains-clipping-path-19503.jpg",
-    "title": "Quiz Canada #AluraQuiz",
-    "description": "Um quiz rápido sobre o Canada",
+    "bg": "https://media.gettyimages.com/videos/loopable-maple-leafs-over-red-background-canadian-flag-copy-space-video-id514607750?s=640x640",
+    "title": "Quiz sobre o Canadá #AluraQuiz",
+    "description": "Um quiz rápido sobre o Canadá",
     "questions": [
       {
         "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
@@ -50,8 +50,8 @@
     "theme": {
       "colors": {
         "primary": "#aa2e25",
-        "secondary": "#f44336",
-        "mainBg": "#213f4e",
+        "secondary": "#f6685e",
+        "mainBg": "red",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
         "success": "#4CAF50"

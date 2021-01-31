@@ -7,10 +7,10 @@ import QuizBackground from '../src/components/QuizBackground';
 
 
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+// const Title = styled.h1`
+//   font-size: 50px;
+//   color: ${({ theme }) => theme.colors.primary};
+// `
 //qualquer funcao iniciada com letra maiuscula definem um componente no REACT
 //a assinatura da funcao pode utilizar qualquer nome de variavel, mas por padrao usar props
 // function Title(props) {
@@ -22,6 +22,7 @@ const Title = styled.h1`
 // }
 
 export const QuizContainer = styled.div`
+  float: right;
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -47,16 +48,16 @@ export default function Home() {
         <QuizContainer>
           <Widget>
             <Widget.Header>
-              <h1>Canada</h1>
+              <h1>Quiz sobre o Canadá</h1>
             </Widget.Header>
             <Widget.Content>
-              <p>descricao do que vai vir</p>
+              <p align="justify">O Canadá é um país que ocupa grande parte da América do Norte e se estende desde o oceano Atlântico, a leste, até o oceano Pacífico, a oeste. Ao norte o país é limitado pelo oceano Ártico. É o segundo maior país do mundo em área total, superado apenas pela Rússia, e a sua fronteira comum com os Estados Unidos, no sul e no noroeste, é a mais longa fronteira terrestre do mundo. </p>
             </Widget.Content>
           </Widget>
           <Widget>
             <Widget.Content>
               <h1>Quizes da Galera</h1>
-              <p>descricao do que vai vir2</p>
+              <p>...</p>
             </Widget.Content>
           </Widget>
           <Footer />
